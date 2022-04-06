@@ -2,9 +2,9 @@
 
 > Tea Cozy is a tea website that showcase all kinds of tea.This project is an off-platform project from the codecademy full-stack engineering course. 
 
-![screenshot](images/Capture1.png)
-![screenshot](images/Capture2.png)
-![screenshot](images/Capture3.png)
+![screenshot](images/Capture1.PNG)
+![screenshot](images/Capture2.PNG)
+![screenshot](images/Capture3.PNG)
 
 
 ## Built With

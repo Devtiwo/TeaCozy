@@ -1,0 +1,154 @@
+/*  GENERAL STYLES */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  color: #fff5ee;
+  height: 100%;
+  font-family: Helvetica, sans-serif;
+  opacity: 0.6;
+}
+
+/* NAVBAR STYLES */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  padding: 10px;
+  border-bottom: 1px solid #fff5ee;
+  position: fixed;
+  z-index: 1;
+  overflow: hidden;
+  width: 100%;
+  background-color: #000;
+}
+
+.logo { height: 50px; }
+
+.navlinks { display: flex; }
+
+.navlinks li {
+  padding: 10px;
+  list-style: none;
+  text-decoration: underline;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* BANNER STYLES */
+main {
+  position: relative;
+  top: 70px;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+
+.banner {
+  width: 90%;
+  max-height: 700px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1200px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.center {
+  background-color: #000;
+  text-align: center;
+  width: 1200px;
+}
+
+.center h2 { padding: 10px 0; }
+
+.center h4 { padding: 10px 0; }
+
+/* TEA OF THE MONTH STYLES */
+
+.tea-type { margin: 100px 0; }
+
+.tea-type h2 {
+  font-size: 35px;
+  padding: 10px 0;
+}
+
+.tea-type h4 {
+  font-size: 22px;
+  padding: 10px 0;
+}
+.tea-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  width: 1000px;
+}
+
+.tea-wrap img {
+  width: 300px;
+  height: 200px;
+}
+
+figure { padding: 15px; }
+
+figcaption {
+  padding: 5px;
+  font-size: 22px;
+}
+
+/* LOCATION STYLES */
+
+.locations {
+  width: 90%;
+  margin: 0 auto;
+  height: 500px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.locations h2 {
+  margin-top: 50px;
+  font-size: 35px;;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  height: 300px;
+  width: 300px;
+  background-color: #000;
+  margin: 15px 40px;
+  opacity: 1;
+  padding: 40px 0;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.cards h3 { font-size: 32px; }
+
+.contact { height: 200px; }
+
+.contact h2 { padding: 10px 0 30px 0; }
+
+.contact h5 { padding-bottom: 20px; }
+
+footer { padding: 20px; }
